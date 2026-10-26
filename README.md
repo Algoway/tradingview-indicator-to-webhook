@@ -1,8 +1,10 @@
 # TradingView Indicator to Webhook — AlgoWay Chrome Extension
 
-The AlgoWay Chrome extension can turn trading setups displayed by **compatible TradingView indicators** into webhook commands without access to the indicator's Pine Script source or TradingView's native webhook notification feature.
+Technical documentation for the AlgoWay TradingView Indicator to Webhook Chrome extension.
 
-This repository documents the Chrome extension. It is **not** the extension's source-code repository, and it does not contain trading credentials, proprietary implementation code, or a separately installable build.
+The extension interprets supported trading setups displayed on an open TradingView chart and sends webhook commands to a configured AlgoWay route. Compatibility depends on the indicator's displayed data and the browser remaining available.
+
+This is a documentation repository, **not** the extension's source-code repository. It contains no extension source files or separately installable build.
 
 ## Signal and execution path
 
